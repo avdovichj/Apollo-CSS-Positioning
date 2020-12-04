@@ -1,0 +1,111 @@
+.wrapper{
+	background: #fff;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.wrapper:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#banner{
+	max-height: 250px;
+	overflow: hidden;
+	margin: 1%;
+	position: relative;
+}
+
+#banner h2{
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	width: 100%;
+	color: white;
+}
+
+.service h2, .service p{
+	color: #999;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.service{
+	background: #eee;
+	float: left;
+	width: 29%;
+	margin: 1%;
+	padding: 1%;
+	height: 150px;
+}
+
+.services:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content{
+	padding: 20px;
+	background: #ccc;
+	margin-top: 20px 1%;
+	position: relative;
+}
+
+.content p{
+	-webkit-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 50px;
+	column-gap : 50px;
+	-webkit-column-rule: 1px solid black;
+	column-rule: 1px solid black;
+	text-align: justify;
+}
+
+section, aside{
+	float: left;
+	width: 46%;
+	padding: 1%;
+	margin: 1%;
+	background-color: #f2f2f2;
+}
+
+.columns:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+nav{
+	background: #333;
+	padding: 5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li{
+	list-style-type: none;
+	margin: 0 30px;
+	color: white;
+	float: right;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	color: green;
+}
